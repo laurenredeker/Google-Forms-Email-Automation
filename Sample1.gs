@@ -1,4 +1,5 @@
 // Sort Timestamp column from newest to oldest: 
+// setup this function as an installable trigger OnFormSubmit
 
 function Sort_Timestamp(event){
   var sheet2 = SpreadsheetApp.getActiveSheet();
@@ -14,6 +15,7 @@ function Sort_Timestamp(event){
 }
 
 // Automated Emails:
+// setup this function as an installable trigger OnEdit
 
 var ss = SpreadsheetApp.getActive();
 var sheet = SpreadsheetApp.getActiveSheet();
